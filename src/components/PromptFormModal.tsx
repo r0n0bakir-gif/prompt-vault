@@ -9,7 +9,7 @@ import { Textarea } from "./ui/textarea";
 import { Badge } from "./ui/badge";
 import { useCreatePromptWithCache, useUpdatePromptWithCache } from "@/hooks/use-prompts";
 import { useToast } from "@/hooks/use-toast";
-import type { Prompt } from "@workspace/api-client-react/src/generated/api.schemas";
+import type { Prompt } from "@/lib/local-api";
 
 const formSchema = z.object({
   title: z.string().min(1, "Title is required"),

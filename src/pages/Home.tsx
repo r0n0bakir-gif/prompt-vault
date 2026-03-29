@@ -8,7 +8,7 @@ import { PromptCard } from "@/components/PromptCard";
 import { PromptFormModal } from "@/components/PromptFormModal";
 import { DeleteConfirmModal } from "@/components/DeleteConfirmModal";
 import { useListPrompts, useListCategories } from "@/hooks/use-prompts";
-import type { Prompt } from "@workspace/api-client-react/src/generated/api.schemas";
+import type { Prompt } from "@/lib/local-api";
 
 export default function Home() {
   const [search, setSearch] = React.useState("");

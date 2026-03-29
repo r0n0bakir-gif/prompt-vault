@@ -6,7 +6,7 @@ import {
   useToggleFavorite,
   getListPromptsQueryKey,
   getListCategoriesQueryKey,
-} from "@workspace/api-client-react";
+} from "@/lib/local-api";
 
 export function useCreatePromptWithCache() {
   const queryClient = useQueryClient();
@@ -55,5 +55,4 @@ export function useToggleFavoriteWithCache() {
   });
 }
 
-// Re-export standard query hooks for convenience
-export { useListPrompts, useListCategories } from "@workspace/api-client-react";
+export { useListPrompts, useListCategories } from "@/lib/local-api";

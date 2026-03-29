@@ -5,7 +5,7 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { useToggleFavoriteWithCache } from "@/hooks/use-prompts";
 import { useToast } from "@/hooks/use-toast";
-import type { Prompt } from "@workspace/api-client-react/src/generated/api.schemas";
+import type { Prompt } from "@/lib/local-api";
 
 interface PromptCardProps {
   prompt: Prompt;
