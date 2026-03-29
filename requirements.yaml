@@ -1,0 +1,19 @@
+packages:
+  "framer-motion": "Animations and page transitions for a premium feel"
+  "react-hook-form": "Form state management"
+  "@hookform/resolvers": "Zod validation integration"
+  "clsx": "Utility for conditionally joining classNames"
+  "tailwind-merge": "Utility to merge Tailwind classes safely"
+  "date-fns": "For elegant date formatting"
+
+images:
+  - path: "artifacts/prompt-vault/public/images/hero-bg.png"
+    description: "Dark abstract gradient background with subtle gold and amber light leaks, very dark and cinematic, subtle film grain, editorial professional style"
+    aspect_ratio: "16:9"
+  - path: "artifacts/prompt-vault/public/images/empty-state.png"
+    description: "Minimalist dark editorial illustration of a vault or an elegant empty archive, dark charcoal background with gold geometric lines"
+    aspect_ratio: "1:1"
+
+notes:
+  - Using generated Orval hooks from @workspace/api-client-react
+  - Creating a custom dark editorial theme overriding index.css
